@@ -8,6 +8,24 @@ import { DemoCanvasWidget } from "./DemoCanvasWidget";
 
 export default () => {
   var engine = createEngine();
+  const [modelState, setModelState] = React.useState({
+    components: [
+      {
+        id: "c1", // unique identifier for first box created
+        name: "Node 1", // name of the box/component
+      },
+      {
+        id: "c2",
+        name: "Node 2",
+      },
+    ],
+    links: [
+      {
+        src: "c1", // source of the link
+        dest: "c2", // destination
+      },
+    ],
+  });
 
   var model = new DiagramModel();
 

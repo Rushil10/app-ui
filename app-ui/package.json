@@ -6,6 +6,7 @@
     "@emotion/react": "11.7.1",
     "@emotion/styled": "11.6.0",
     "@projectstorm/react-diagrams": "6.5.2",
+    "axios": "^0.27.2",
     "closest": "0.0.1",
     "dagre": "0.8.5",
     "lodash": "4.17.21",
